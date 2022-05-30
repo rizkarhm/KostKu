@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/drawable/btn_disabled.xml" value="0.2115" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/drawable/btn_empty.xml" value="0.2115" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/drawable/button_rounded.xml" value="0.2115" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/drawable/image.xml" value="0.2115" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/activity_boarding.xml" value="0.20416666666666666" />
@@ -17,7 +18,7 @@
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/banner_coba.xml" value="0.33" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/fragment_home.xml" value="0.17" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/fragment_other.xml" value="0.33" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/fragment_search.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/fragment_search.xml" value="0.25" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/fragment_transaction.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/item_banner.xml" value="0.33" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/KostKu/app/src/main/res/layout/item_kost.xml" value="0.33" />

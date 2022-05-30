@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:fontFamily="@font/semibold"
+            android:text="Register"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/light"
+            android:text="Temukan Kost Idamanmu disini!"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/titleInput_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Full Name"
+            android:fontFamily="@font/medium"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="@font/regular"
+            android:textSize="14dp"
+            android:inputType="text"
+            android:hint="Full Name"
+            android:background="@drawable/frame_input"
+            android:drawableLeft="@drawable/name_form"
+            android:drawablePadding="15dp"
+            android:padding="18dp"
+            />
+
+        <TextView
+            android:id="@+id/titleInput_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Full Name"
+            android:fontFamily="@font/medium"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="@font/regular"
+            android:textSize="14dp"
+            android:inputType="text"
+            android:hint="Username"
+            android:background="@drawable/frame_input"
+            android:drawableLeft="@drawable/username_form"
+            android:drawablePadding="15dp"
+            android:padding="18dp" />
+
+        <TextView
+            android:id="@+id/titleInput_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E-mail Address"
+            android:fontFamily="@font/medium"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="@font/regular"
+            android:textSize="14dp"
+            android:inputType="textEmailAddress"
+            android:hint="E-mail Address"
+            android:background="@drawable/frame_input"
+            android:drawableLeft="@drawable/email_form"
+            android:drawablePadding="15dp"
+            android:padding="18dp" />
+
+        <TextView
+            android:id="@+id/titleInput_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Password"
+            android:fontFamily="@font/medium"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/input_pass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="@font/regular"
+            android:textSize="14dp"
+            android:inputType="text"
+            android:hint="Password"
+            android:background="@drawable/frame_input"
+            android:drawableLeft="@drawable/password_form"
+            android:drawablePadding="15dp"
+            android:padding="18dp" />
+
+        <TextView
+            android:id="@+id/titleInput_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender"
+            android:fontFamily="@font/medium"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/input_gender"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="@font/regular"
+            android:textSize="14dp"
+            android:inputType="text"
+            android:hint="Gender"
+            android:background="@drawable/frame_input"
+            android:drawableLeft="@drawable/gender_form"
+            android:drawablePadding="15dp"
+            android:padding="18dp" />
+
+        <TextView
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_active"
+            android:fontFamily="@font/regular"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:text="Register"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp">
+
+        <TextView
+            android:id="@+id/txt_directLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="Already have an account? Login here!"
+            android:textSize="14dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_active"
+        android:title="@string/home"
+        android:icon="@drawable/home_active"/>
+    <item
+        android:id="@+id/search_active"
+        android:title="@string/search"
+        android:icon="@drawable/search_active"/>
+    <item
+        android:id="@+id/trasaction_active"
+        android:title="@string/transaction"
+        android:icon="@drawable/transaction_active"/>
+    <item
+        android:id="@+id/other_active"
+        android:title="@string/other"
+        android:icon="@drawable/other_active"/>
+</menu>

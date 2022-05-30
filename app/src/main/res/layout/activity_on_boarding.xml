@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardingActivity"
+    android:padding="24dp">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_ob"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_alignParentTop="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/ll_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/vp_ob"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/txt_skip"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:fontFamily="@font/regular"
+            android:text="Skip"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_disabled"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txt_next"
+            android:padding="10dp"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/regular"
+            android:textSize="16dp"
+            android:text="Next"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_active"/>
+    </LinearLayout>
+</RelativeLayout>
